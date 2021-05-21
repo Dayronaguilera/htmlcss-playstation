@@ -30,7 +30,7 @@
 }
 
 /* nav bar */
-nav{
+.navbar{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -166,20 +166,26 @@ nav button{
 
 /* Start media query */
 
-/* device XS media*/
-@media only screen and (min-width: 575px){
 
-}
     
-/* device sm media*/
+/* device xs media*/
 @media only screen and (max-width: 576px){
-
+    
 }
+
+/* device sm media*/
+@media only screen and (max-width: 768px){
+    
+}
+
 /* device md media*/
-@media only screen and (min-width: 768px){
-
-}
-/* device lg media*/
-@media only screen and (min-width: 992px){
-
+@media only screen and (max-width: 992px){
+    .bg-returnal{
+        position: relative;
+        background-position: center;
+    }
+    .bg-takes-two{
+        position: relative;
+        background-position: center;
+    }
 }
