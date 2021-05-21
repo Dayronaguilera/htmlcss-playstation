@@ -8,8 +8,8 @@
     padding: 5px 20px;
     border-radius: 20px;
     cursor: pointer;
-    border:3px rgb(187, 54, 54) solid;
-    background-color: rgb(187, 54, 54);
+    border:3px rgb(205,61,15) solid;
+    background-color: rgb(205,61,15);
 }
 .red-button:hover{
     border:3px rgb(253, 2, 2) solid;
@@ -62,7 +62,7 @@ nav button{
     padding-bottom: 70px;
 }
 .bg-returnal img{
-    width: 250px;
+    width: 300px;
     margin-bottom: 25px;
 }
 .bg-returnal h1{
@@ -102,7 +102,7 @@ nav button{
     padding-top: 50px;
 }
 .section-1 span:first-child{
-    color:rgb(11, 11, 177);
+    color:rgb(104,172,226);
 }
 .section-1 h1{
     margin-bottom: 20px;
@@ -115,7 +115,7 @@ nav button{
 .section-1 button{
     margin-top: 30px;
     color: rgb(255, 255, 255);
-    background-color: rgb(64, 115, 255);
+    background-color: rgb(45,100,230);
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 20px;
@@ -182,7 +182,61 @@ nav button{
 .figure-3 h6{
     font-size: 20px;
     margin-bottom: 70px;
+    margin-top: 10px;
 }
+
+/* start section 3 */
+.section-3 img{
+    width: 100%;
+    margin-top: 70px;
+}
+.section-3 h6{
+    font-size: 17px;
+   
+}
+.section-3 button{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(45,100,230);
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* section ps plus */
+#bg-plus{
+    background-color: rgb(190, 188, 187);
+}
+.play-plus img{
+    width: 100%;
+   
+}
+.play-plus h6{
+    font-size: 15px;
+    margin-top: 40px;
+}
+.play-plus button{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: rgb(84,127,228);
+    background-color: rgb(201, 201, 202);
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* section promo play store */
+.promo-store h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.promo-store>div{
+    margin-bottom: 40px;
+}
+
 
 
 
