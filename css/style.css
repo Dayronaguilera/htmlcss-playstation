@@ -74,9 +74,9 @@ nav button{
 
 /* main figure */
 .figure-1{
- border-radius: 20px;
- border: 2px white solid;
- overflow: hidden;
+    border-radius: 20px;
+    border: 2px white solid;
+    overflow: hidden;
 }
 .figure-1:hover{
     cursor: pointer;
@@ -141,8 +141,7 @@ nav button{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     width: 100%;
-    color: white;
-    margin-bottom: 30px;    
+    color: white;   
 }
 .text-img-takes{
     padding-top: 70px;
@@ -159,14 +158,36 @@ nav button{
     margin-bottom: 25px;
 }
 
+/* section figure 3 */
+.figure-3{
+    color: white;
+    background:rgb(31, 30, 30);  
+}
+.figure-3 .col-12{
+    margin-bottom: 30px;
+}
+.figure-3 h1,span{
+    margin-top: 30px;
+}
 
+.figure-3-circle>div{
+    
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+.figure-3 img{
+    width: 100%;
+}
+.figure-3 h6{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
 
 
 
 
 /* Start media query */
-
-
     
 /* device xs media*/
 @media only screen and (max-width: 576px){
@@ -179,7 +200,7 @@ nav button{
 }
 
 /* device md media*/
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 991px){
     .bg-returnal{
         position: relative;
         background-position: center;
@@ -188,4 +209,8 @@ nav button{
         position: relative;
         background-position: center;
     }
+}
+/* device lg media */
+@media only screen and (min-width: 992px){
+
 }
