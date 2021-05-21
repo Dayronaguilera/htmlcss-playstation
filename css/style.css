@@ -1,13 +1,26 @@
 /* utility class */
-
-
+.span-size{
+    font-size: 20px;
+}
+.red-button{
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border:3px rgb(187, 54, 54) solid;
+    background-color: rgb(187, 54, 54);
+}
+.red-button:hover{
+    border:3px rgb(253, 2, 2) solid;
+}
 
 
 
 
 /* ---------------- */
 
-header> .logo-top{
+.logo-top{
     text-align: end;
     background-color: black;
 }
@@ -15,12 +28,21 @@ header> .logo-top{
     width: 100px;
     padding: 10px;
 }
+
 /* nav bar */
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
 form i{
     font-size: 25px;
     margin: 5px 20px; 
 }
 nav button{
+    color: white;
+    background-color: rgb(75, 73, 73);
     padding: 5px 15px;
     border-radius: 20px;
     font-size: 15px;
@@ -28,34 +50,136 @@ nav button{
 }
 
 /* header img */
-
 .bg-returnal{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     width: 100%;
-    height: 600px;
-    color: white;    
+    color: white;
+    margin-bottom: 30px;    
 }
 .center-all{
-    padding-top: 200px;
+    padding-top: 350px;
+    padding-bottom: 70px;
 }
 .bg-returnal img{
     width: 250px;
     margin-bottom: 25px;
 }
+.bg-returnal h1{
+    font-size: 45px;
+}
 .bg-returnal h1,p{
     margin-bottom: 25px;
 }
-.bg-returnal button{
-    color: white;
-    font-size: 20px;
-    padding: 5px 20px;
-    border-radius: 20px;
-    margin:0;
-    border:3px rgb(187, 54, 54) solid;
-    background-color: rgb(187, 54, 54);
+
+/* main figure */
+.figure-1{
+ border-radius: 20px;
+ border: 2px white solid;
+ overflow: hidden;
 }
-.bg-returnal button:hover{
-    border:3px rgb(253, 2, 2) solid;
+.figure-1:hover{
+    cursor: pointer;
+    pointer-events: painted;
+    border: 2px rgb(6, 155, 255) solid;
+}
+.figure-1> div{
+    border-radius: 20px;
+    border: 2px white solid;
+    overflow: hidden;
+   
+}
+.figure-1 img{
+    width: 100%;
+}
+
+/* main section title */
+.section-1{
+    align-items: center;
+    margin-bottom: 30px;
+}
+.section-1>div{
+    padding-top: 50px;
+}
+.section-1 span:first-child{
+    color:rgb(11, 11, 177);
+}
+.section-1 h1{
+    margin-bottom: 20px;
+}
+
+/* main section  */
+.section-1 div:nth-child(3) img{
+    width: 100%;
+}
+.section-1 button{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 115, 255);
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* main section img */
+.figure-2> div{
+    padding:5px 30px;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+    opacity: 0.5;
+}
+.figure-2> div:hover{
+    opacity: 1;
+    border-bottom: 2px rgb(14, 73, 168) solid;
+}
+.figure-2> div img{
+    width: 100%;
+}
+
+/* start section 2 */
+.bg-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    width: 100%;
+    color: white;
+    margin-bottom: 30px;    
+}
+.text-img-takes{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.text-img-takes img{
+    width: 250px;
+    margin-bottom: 25px;
+}
+.text-img-takes h1{
+    font-size: 45px;
+}
+.text-img-takes h1,p{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+/* Start media query */
+
+/* device XS media*/
+@media only screen and (min-width: 575px){
+
+}
+    
+/* device sm media*/
+@media only screen and (max-width: 576px){
+
+}
+/* device md media*/
+@media only screen and (min-width: 768px){
+
+}
+/* device lg media*/
+@media only screen and (min-width: 992px){
 
 }
