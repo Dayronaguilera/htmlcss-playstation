@@ -166,8 +166,9 @@ nav button{
 .figure-3 .col-12{
     margin-bottom: 30px;
 }
-.figure-3 h1,span{
+.figure-3> div h1{
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .figure-3-circle>div{
@@ -191,7 +192,7 @@ nav button{
     margin-top: 70px;
 }
 .section-3 h6{
-    font-size: 17px;
+    font-size: 20px;
    
 }
 .section-3 button{
@@ -210,8 +211,7 @@ nav button{
     background-color: rgb(190, 188, 187);
 }
 .play-plus img{
-    width: 100%;
-   
+    width: 100%; 
 }
 .play-plus h6{
     font-size: 15px;
@@ -219,7 +219,6 @@ nav button{
 }
 .play-plus button{
     margin-top: 30px;
-    margin-bottom: 40px;
     color: rgb(84,127,228);
     background-color: rgb(201, 201, 202);
     font-size: 17px;
@@ -237,7 +236,27 @@ nav button{
     margin-bottom: 40px;
 }
 
-
+/* start section playstation now */
+#bg-now{
+    background-color: rgb(10,20,51);
+    color: white;
+}
+.play-now img{
+    width: 100%; 
+}
+.play-now h6{
+    font-size: 15px;
+    margin-top: 40px;
+}
+.play-now button{
+    margin-top: 30px;
+    color: rgb(84,127,228);
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
 
 
 
@@ -250,7 +269,9 @@ nav button{
 
 /* device sm media*/
 @media only screen and (max-width: 768px){
-    
+    .bg-plus-none{
+        display: none;
+    }    
 }
 
 /* device md media*/
