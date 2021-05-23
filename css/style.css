@@ -36,6 +36,17 @@
     top: 0;
     z-index: 1001;
 }
+.navbar img{
+    margin-right: 15px;
+}
+.nav-item{
+    display: inline-flex;
+}
+.nav-item> div svg{
+    width:10px;
+    padding-top: 15px;
+    margin-right: 20px;
+}
 form i{
     font-size: 25px;
     margin: 5px 20px; 
@@ -62,8 +73,8 @@ nav button{
     padding-bottom: 70px;
 }
 .bg-returnal img{
-    width: 300px;
-    margin-bottom: 25px;
+    width: 70%;
+    margin-bottom: 20px;
 }
 .bg-returnal h1{
     font-size: 45px;
@@ -259,6 +270,10 @@ nav button{
 }
 
 /* start section social media */
+.social-media{
+    padding: 0px 15vw;
+    margin-bottom: 80px;
+}
 .social-media div h1{
     margin-top: 50px;
     margin-bottom: 40px;
@@ -266,9 +281,7 @@ nav button{
 .social-media img{
     width: 100%;
 }
-.social-media div{  
-    margin-bottom: 50px;
-}
+
 
 /* start footer */
 .bg-footer{
@@ -315,12 +328,10 @@ nav button{
 
 /* device md media*/
 @media only screen and (max-width: 991px){
-    .bg-returnal{
-        position: relative;
+    .bg-returnal{      
         background-position: center;
     }
     .bg-takes-two{
-        position: relative;
         background-position: center;
     }
 }
