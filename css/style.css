@@ -1,6 +1,6 @@
 /* utility class */
 .span-size{
-    font-size: 20px;
+    font-size: 25px;
 }
 .red-button{
     color: white;
@@ -14,10 +14,10 @@
 .red-button:hover{
     border:3px rgb(253, 2, 2) solid;
 }
-
-
-
-
+.mg-h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 /* ---------------- */
 
 .logo-top{
@@ -42,10 +42,11 @@
 .nav-item{
     display: inline-flex;
 }
-.nav-item> div svg{
+
+.nav-item>div svg{
     width:10px;
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 20px; 
 }
 form i{
     font-size: 25px;
@@ -59,7 +60,9 @@ nav button{
     font-size: 15px;
     margin: 0px 15px;
 }
-
+.navbar-light .navbar-nav .nav-link:hover{
+    color: blue;
+}
 /* header img */
 .bg-returnal{
     background-image: url(../img/jumbo-bg.png);
@@ -78,10 +81,13 @@ nav button{
 }
 .bg-returnal h1{
     font-size: 45px;
+    margin-bottom: 40px;
 }
-.bg-returnal h1,p{
-    margin-bottom: 25px;
+.bg-returnal p{
+    font-size: 23px;
+    margin-bottom: 40px;
 }
+
 
 /* main figure */
 .figure-1{
@@ -147,7 +153,7 @@ nav button{
     width: 100%;
 }
 
-/* start section 2 */
+/* start section 2 takes two*/
 .bg-takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
@@ -164,12 +170,14 @@ nav button{
 }
 .text-img-takes h1{
     font-size: 45px;
+    margin-bottom: 30px;
 }
-.text-img-takes h1,p{
-    margin-bottom: 25px;
+.text-img-takes p{
+    font-size: 19px;
+    margin-bottom: 40px;
 }
 
-/* section figure 3 */
+/* figure 3 */
 .figure-3{
     color: white;
     background:rgb(31, 30, 30);  
@@ -179,11 +187,10 @@ nav button{
 }
 .figure-3> div h1{
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.figure-3-circle>div{
-    
+.figure-3-circle>div{   
     border-radius: 30px;
     overflow: hidden;
 
@@ -202,9 +209,13 @@ nav button{
     width: 100%;
     margin-top: 70px;
 }
+
 .section-3 h6{
-    font-size: 20px;
-   
+    font-size: 20px;  
+    margin: 0;
+}
+.section-3>div span{
+    display: block;
 }
 .section-3 button{
     margin-top: 30px;
@@ -239,10 +250,6 @@ nav button{
 }
 
 /* section promo play store */
-.promo-store h1{
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
 .promo-store>div{
     margin-bottom: 40px;
 }
@@ -256,7 +263,7 @@ nav button{
     width: 100%; 
 }
 .play-now h6{
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 40px;
 }
 .play-now button{
@@ -274,14 +281,9 @@ nav button{
     padding: 0px 15vw;
     margin-bottom: 80px;
 }
-.social-media div h1{
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
 .social-media img{
     width: 100%;
 }
-
 
 /* start footer */
 .bg-footer{
@@ -310,6 +312,7 @@ nav button{
     width: 20px;
     margin-right: 10px;
 }
+
 /* Start media query */
     
 /* device xs media*/
@@ -318,14 +321,12 @@ nav button{
         margin-bottom: 25px;
     }
 }
-
 /* device sm media*/
 @media only screen and (max-width: 768px){
     .bg-plus-none{
         display: none;
     }    
 }
-
 /* device md media*/
 @media only screen and (max-width: 991px){
     .bg-returnal{      
